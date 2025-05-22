@@ -1,0 +1,6 @@
+framework module SKRangeSlider {
+  umbrella header "SKRangeSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SKRangeSlider (1.0.0)
+
+DEPENDENCIES:
+  - SKRangeSlider (from `SKRangeSlider/.`)
+
+EXTERNAL SOURCES:
+  SKRangeSlider:
+    :path: SKRangeSlider/.
+
+SPEC CHECKSUMS:
+  SKRangeSlider: 9ea59b123f1b11978ab344faa108b44020ddc3dc
+
+PODFILE CHECKSUM: b3fced5a7f20bc0ad534414bd499becfe9530870
+
+COCOAPODS: 1.16.2

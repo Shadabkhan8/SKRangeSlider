@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B94C066DA17912BDFF858A3FBF6C5D /* ValueBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F9F520D854B61FB9D4E666D89F3CC /* ValueBox.swift */; };
+		0EDBCD768365D836071CDF6F1D82C77C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		1A805A450CF3EE75F529F7A4332323B4 /* RangeSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6862BBF0DD89546B21670BDA24AA5C /* RangeSliderView.swift */; };
+		335C3A345B54C28CB8C6D970B2D00E27 /* SKRangeSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08920E559F703DA18C8C06CCA6B86383 /* SKRangeSlider-dummy.m */; };
+		3CCAD7516E358F7393C8058D357920F2 /* SliderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741C35C58928389C4845A3BCA983A55F /* SliderType.swift */; };
+		3E564DEEEB2E4D7B21E4171756E20CDD /* SKRangeSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B243AB6FC0D11B47370286472374D1 /* SKRangeSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1A24C7C85B313A3B2B913ABA015B2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
+		6E852B9418C8A74208E224A078FD20FE /* Pods-SKRangeSliderView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B17433BB13FE6D33528FC24417F141 /* Pods-SKRangeSliderView-dummy.m */; };
+		7225462EC81FAE9115C37B3F5960BCAD /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC56AFDE70C42A29A7252A1AC4E6C9 /* Int+Extension.swift */; };
+		95F8DB55CF6FBDDD3F69DF3D6152E2EC /* Pods-SKRangeSliderView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F39D205DF24B163DAD1C3B315E51E1 /* Pods-SKRangeSliderView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1F5A43F5E8B2CBF7C69D0D94A46D3FD /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30EAF3210A7DC8086AD1FCCD931DF6B /* Triangle.swift */; };
+		D70CC2C597976CC88A0F30C50C90FBB1 /* DraggableCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16095BA52A45A46B0BB5980E718B58C0 /* DraggableCircle.swift */; };
+		DC4845A91D89EF5A9C1387EA25337A5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4047123204067850971CC75AA7EB3ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 981F580B6153D32DD688EC460A8626B2;
+			remoteInfo = SKRangeSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BA6578684B400AD4F9BC3B5632C3F8 /* Pods-SKRangeSliderView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SKRangeSliderView"; path = Pods_SKRangeSliderView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08920E559F703DA18C8C06CCA6B86383 /* SKRangeSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKRangeSlider-dummy.m"; sourceTree = "<group>"; };
+		16095BA52A45A46B0BB5980E718B58C0 /* DraggableCircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DraggableCircle.swift; sourceTree = "<group>"; };
+		22CFD0D9EB3B1532E9DAC6DCB232CD51 /* SKRangeSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKRangeSlider.modulemap; sourceTree = "<group>"; };
+		29B17433BB13FE6D33528FC24417F141 /* Pods-SKRangeSliderView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKRangeSliderView-dummy.m"; sourceTree = "<group>"; };
+		3351B2F21600F3962FE4D71A8166AD5E /* Pods-SKRangeSliderView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKRangeSliderView-frameworks.sh"; sourceTree = "<group>"; };
+		3BBC56AFDE70C42A29A7252A1AC4E6C9 /* Int+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		4CB3D1306D5214369320EC2B0288AC74 /* SKRangeSlider */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKRangeSlider; path = SKRangeSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		545F9F520D854B61FB9D4E666D89F3CC /* ValueBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ValueBox.swift; sourceTree = "<group>"; };
+		626B6B009C695159CCE407F7F5CC44B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		644380DD05DAF7663819C46D54672622 /* Pods-SKRangeSliderView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKRangeSliderView.modulemap"; sourceTree = "<group>"; };
+		6A6862BBF0DD89546B21670BDA24AA5C /* RangeSliderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RangeSliderView.swift; sourceTree = "<group>"; };
+		741C35C58928389C4845A3BCA983A55F /* SliderType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SliderType.swift; sourceTree = "<group>"; };
+		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		86E3FEA54C1E0C3DBDDEAAF4D7FDD3DC /* Pods-SKRangeSliderView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKRangeSliderView.release.xcconfig"; sourceTree = "<group>"; };
+		95F39D205DF24B163DAD1C3B315E51E1 /* Pods-SKRangeSliderView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKRangeSliderView-umbrella.h"; sourceTree = "<group>"; };
+		9BFAC455AC70A82C93EF2D3023F44A3E /* Pods-SKRangeSliderView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKRangeSliderView-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C43885BF8A54B5C2F3CC870CCBA8638 /* Pods-SKRangeSliderView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKRangeSliderView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A381B795D973EF34896DDBAF0D44D296 /* Pods-SKRangeSliderView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKRangeSliderView.debug.xcconfig"; sourceTree = "<group>"; };
+		BC46202171BC971B5A89283CF3D825E9 /* Pods-SKRangeSliderView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKRangeSliderView-Info.plist"; sourceTree = "<group>"; };
+		C011F33728C2F303C7A11CC44090E868 /* SKRangeSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKRangeSlider.release.xcconfig; sourceTree = "<group>"; };
+		C30EAF3210A7DC8086AD1FCCD931DF6B /* Triangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		C5E1A7AA6F7E26A6A1CBA7DE1EA379E6 /* SKRangeSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKRangeSlider.debug.xcconfig; sourceTree = "<group>"; };
+		D0106C76D41B1EDEDDB1E27ABF8970EE /* SKRangeSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKRangeSlider-Info.plist"; sourceTree = "<group>"; };
+		D1B243AB6FC0D11B47370286472374D1 /* SKRangeSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKRangeSlider-umbrella.h"; sourceTree = "<group>"; };
+		D281F583C4F0C318D32DB79D85D5C5EA /* SKRangeSlider.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = SKRangeSlider.podspec.json; sourceTree = "<group>"; };
+		DD57F5246856B3D15E056C5F00B755ED /* SKRangeSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKRangeSlider-prefix.pch"; sourceTree = "<group>"; };
+		ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3727A36E46D5F81F89E8D8B6343F9ED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4845A91D89EF5A9C1387EA25337A5B /* Foundation.framework in Frameworks */,
+				5E1A24C7C85B313A3B2B913ABA015B2F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945BD8808B5B1ED1F7C6A1A86FF5A485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EDBCD768365D836071CDF6F1D82C77C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DE6440B6853131A80C53DDA34375AAB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DE6440B6853131A80C53DDA34375AAB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */,
+				ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		53DAA10797142002730889BDE7A1033C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				626B6B009C695159CCE407F7F5CC44B7 /* LICENSE */,
+				D281F583C4F0C318D32DB79D85D5C5EA /* SKRangeSlider.podspec.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		712AF01748D44BC15B3F7333FD5C6DCB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C83B6E2CF31A78CDDE54C68C9E98472 /* Pods-SKRangeSliderView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8C83B6E2CF31A78CDDE54C68C9E98472 /* Pods-SKRangeSliderView */ = {
+			isa = PBXGroup;
+			children = (
+				644380DD05DAF7663819C46D54672622 /* Pods-SKRangeSliderView.modulemap */,
+				9C43885BF8A54B5C2F3CC870CCBA8638 /* Pods-SKRangeSliderView-acknowledgements.markdown */,
+				9BFAC455AC70A82C93EF2D3023F44A3E /* Pods-SKRangeSliderView-acknowledgements.plist */,
+				29B17433BB13FE6D33528FC24417F141 /* Pods-SKRangeSliderView-dummy.m */,
+				3351B2F21600F3962FE4D71A8166AD5E /* Pods-SKRangeSliderView-frameworks.sh */,
+				BC46202171BC971B5A89283CF3D825E9 /* Pods-SKRangeSliderView-Info.plist */,
+				95F39D205DF24B163DAD1C3B315E51E1 /* Pods-SKRangeSliderView-umbrella.h */,
+				A381B795D973EF34896DDBAF0D44D296 /* Pods-SKRangeSliderView.debug.xcconfig */,
+				86E3FEA54C1E0C3DBDDEAAF4D7FDD3DC /* Pods-SKRangeSliderView.release.xcconfig */,
+			);
+			name = "Pods-SKRangeSliderView";
+			path = "Target Support Files/Pods-SKRangeSliderView";
+			sourceTree = "<group>";
+		};
+		A3743E61824A8764D77DFC5E74DF918F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22CFD0D9EB3B1532E9DAC6DCB232CD51 /* SKRangeSlider.modulemap */,
+				08920E559F703DA18C8C06CCA6B86383 /* SKRangeSlider-dummy.m */,
+				D0106C76D41B1EDEDDB1E27ABF8970EE /* SKRangeSlider-Info.plist */,
+				DD57F5246856B3D15E056C5F00B755ED /* SKRangeSlider-prefix.pch */,
+				D1B243AB6FC0D11B47370286472374D1 /* SKRangeSlider-umbrella.h */,
+				C5E1A7AA6F7E26A6A1CBA7DE1EA379E6 /* SKRangeSlider.debug.xcconfig */,
+				C011F33728C2F303C7A11CC44090E868 /* SKRangeSlider.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/SKRangeSlider";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				ED4AB43C60C58F718D48472C8E9BE307 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				ED8BC112FFB1D3405878BB266DB7E5B4 /* Products */,
+				712AF01748D44BC15B3F7333FD5C6DCB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ED4AB43C60C58F718D48472C8E9BE307 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAEF73E866A9B4D7E0C50703058D96E2 /* SKRangeSlider */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ED8BC112FFB1D3405878BB266DB7E5B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00BA6578684B400AD4F9BC3B5632C3F8 /* Pods-SKRangeSliderView */,
+				4CB3D1306D5214369320EC2B0288AC74 /* SKRangeSlider */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEF73E866A9B4D7E0C50703058D96E2 /* SKRangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				16095BA52A45A46B0BB5980E718B58C0 /* DraggableCircle.swift */,
+				3BBC56AFDE70C42A29A7252A1AC4E6C9 /* Int+Extension.swift */,
+				6A6862BBF0DD89546B21670BDA24AA5C /* RangeSliderView.swift */,
+				741C35C58928389C4845A3BCA983A55F /* SliderType.swift */,
+				C30EAF3210A7DC8086AD1FCCD931DF6B /* Triangle.swift */,
+				545F9F520D854B61FB9D4E666D89F3CC /* ValueBox.swift */,
+				53DAA10797142002730889BDE7A1033C /* Pod */,
+				A3743E61824A8764D77DFC5E74DF918F /* Support Files */,
+			);
+			name = SKRangeSlider;
+			path = ../SKRangeSlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CF1225AE3465717FF38D4C4D64FB73CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E564DEEEB2E4D7B21E4171756E20CDD /* SKRangeSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72C6D0B081E1DD1692154EBE864F57A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F8DB55CF6FBDDD3F69DF3D6152E2EC /* Pods-SKRangeSliderView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		981F580B6153D32DD688EC460A8626B2 /* SKRangeSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 346A060419A483A1ECF6F455097C3A15 /* Build configuration list for PBXNativeTarget "SKRangeSlider" */;
+			buildPhases = (
+				CF1225AE3465717FF38D4C4D64FB73CB /* Headers */,
+				8D6E099D67011454CFB1FEBBABBC1F36 /* Sources */,
+				3727A36E46D5F81F89E8D8B6343F9ED2 /* Frameworks */,
+				6BEF5ED3259C50C6453AFE1D3037DCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKRangeSlider;
+			productName = SKRangeSlider;
+			productReference = 4CB3D1306D5214369320EC2B0288AC74 /* SKRangeSlider */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB13492B03CA9AC7622194453B9AB37D /* Pods-SKRangeSliderView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031693B49D1DF9C319F09C8FAE14679C /* Build configuration list for PBXNativeTarget "Pods-SKRangeSliderView" */;
+			buildPhases = (
+				F72C6D0B081E1DD1692154EBE864F57A /* Headers */,
+				51E499407CA1A1897BB75092831C2934 /* Sources */,
+				945BD8808B5B1ED1F7C6A1A86FF5A485 /* Frameworks */,
+				D6B4FAC5C4165C338CD5E04893952891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BCD14CD1DA08C5ED393DBDE30E6E57F /* PBXTargetDependency */,
+			);
+			name = "Pods-SKRangeSliderView";
+			productName = Pods_SKRangeSliderView;
+			productReference = 00BA6578684B400AD4F9BC3B5632C3F8 /* Pods-SKRangeSliderView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ED8BC112FFB1D3405878BB266DB7E5B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB13492B03CA9AC7622194453B9AB37D /* Pods-SKRangeSliderView */,
+				981F580B6153D32DD688EC460A8626B2 /* SKRangeSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BEF5ED3259C50C6453AFE1D3037DCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B4FAC5C4165C338CD5E04893952891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51E499407CA1A1897BB75092831C2934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E852B9418C8A74208E224A078FD20FE /* Pods-SKRangeSliderView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6E099D67011454CFB1FEBBABBC1F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70CC2C597976CC88A0F30C50C90FBB1 /* DraggableCircle.swift in Sources */,
+				7225462EC81FAE9115C37B3F5960BCAD /* Int+Extension.swift in Sources */,
+				1A805A450CF3EE75F529F7A4332323B4 /* RangeSliderView.swift in Sources */,
+				335C3A345B54C28CB8C6D970B2D00E27 /* SKRangeSlider-dummy.m in Sources */,
+				3CCAD7516E358F7393C8058D357920F2 /* SliderType.swift in Sources */,
+				B1F5A43F5E8B2CBF7C69D0D94A46D3FD /* Triangle.swift in Sources */,
+				01B94C066DA17912BDFF858A3FBF6C5D /* ValueBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BCD14CD1DA08C5ED393DBDE30E6E57F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKRangeSlider;
+			target = 981F580B6153D32DD688EC460A8626B2 /* SKRangeSlider */;
+			targetProxy = 4047123204067850971CC75AA7EB3ED8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D08DEAD7CF010A523BB0C5A8A450B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5E1A7AA6F7E26A6A1CBA7DE1EA379E6 /* SKRangeSlider.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SKRangeSlider/SKRangeSlider-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SKRangeSlider/SKRangeSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKRangeSlider/SKRangeSlider.modulemap";
+				PRODUCT_MODULE_NAME = SKRangeSlider;
+				PRODUCT_NAME = SKRangeSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EDD9390B796C279C4FA2DADB84F01C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C011F33728C2F303C7A11CC44090E868 /* SKRangeSlider.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SKRangeSlider/SKRangeSlider-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SKRangeSlider/SKRangeSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKRangeSlider/SKRangeSlider.modulemap";
+				PRODUCT_MODULE_NAME = SKRangeSlider;
+				PRODUCT_NAME = SKRangeSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89017E785D94E1375D23F8166FD56D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A381B795D973EF34896DDBAF0D44D296 /* Pods-SKRangeSliderView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKRangeSliderView/Pods-SKRangeSliderView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKRangeSliderView/Pods-SKRangeSliderView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B86D71A5E7AB53EB2C08DEA39FBD2050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BD5E84F7B72D348654A4D58B6BA51118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C99168EDE284203FA3207F72454D552F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86E3FEA54C1E0C3DBDDEAAF4D7FDD3DC /* Pods-SKRangeSliderView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKRangeSliderView/Pods-SKRangeSliderView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKRangeSliderView/Pods-SKRangeSliderView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		031693B49D1DF9C319F09C8FAE14679C /* Build configuration list for PBXNativeTarget "Pods-SKRangeSliderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89017E785D94E1375D23F8166FD56D74 /* Debug */,
+				C99168EDE284203FA3207F72454D552F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		346A060419A483A1ECF6F455097C3A15 /* Build configuration list for PBXNativeTarget "SKRangeSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D08DEAD7CF010A523BB0C5A8A450B23 /* Debug */,
+				6EDD9390B796C279C4FA2DADB84F01C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5E84F7B72D348654A4D58B6BA51118 /* Debug */,
+				B86D71A5E7AB53EB2C08DEA39FBD2050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
