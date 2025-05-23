@@ -24,6 +24,12 @@ Easy integration into any SwiftUI-based project.
 
 <pre> <code> import SKRangeSlider </code> </pre>
 
+## **License**
+
+**SKRangeSlider** is released under the MIT License. 
+
+See the [LICENSE](https://github.com/Shadabkhan8/SKRangeSlider/blob/main/SKRangeSlider/LICENSE) file for more details.
+
 ## **Author**
 
 Developed by **Shadab Khan**.
