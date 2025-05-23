@@ -6,13 +6,13 @@ SKRangeSlider is a customizable range slider component for iOS, built with Swift
 
 - Intuitive dual-thumb slider for selecting a range.
 
-Fully customizable appearance (colors, labels, range).
+- Fully customizable appearance (colors, labels, range).
 
-Smooth animations and modern SwiftUI design.
+- Smooth animations and modern SwiftUI design.
 
-Supports horizontal orientation.
+- Supports horizontal orientation.
 
-Easy integration into any SwiftUI-based project.
+- Easy integration into any SwiftUI-based project.
 
 ## **pod 'SKRangeSlider'**
 
